@@ -1,0 +1,42 @@
+<!-- FICHERO DE CREACIÓN DE MENÚ EN MAIN ACTIVITY -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/iconomenu"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/activity"
+        android:title="@string/activity"
+        android:icon="@android:drawable/btn_dialog"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item
+        android:id="@+id/fondoRojo"
+        android:title="@string/fondo_rojo"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <!-- CREACIÓN DE UN GRUPO DE ITEMS -->
+    <group
+        android:id="@+id/grupoItem"
+        android:visible="true">
+        <!-- PROPIEDAD QUE NOS PERMITE A LOS DESARROLLADORES PODER ESTABLECER EL GRUPO COMO VISIBLE O INVISIBLE-->
+        <item
+            android:id="@+id/mostrarMensaje"
+            android:title="@string/mostrar_mensaje"
+            android:icon="@android:drawable/ic_input_add"
+            android:orderInCategory="100" android:showAsAction="never">
+            <!-- SUBMENÚ-->
+            <menu>
+                <item
+                    android:id="@+id/nuevoMensaje"
+                    android:title="@string/nuevoMensaje"
+                    android:orderInCategory="100" android:showAsAction="never"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/fondoAzul"
+            android:title="@string/fondo_azul"
+            android:icon="@android:drawable/presence_away"
+            android:orderInCategory="100" android:showAsAction="never" />
+    </group>
+</menu>

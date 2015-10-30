@@ -1,0 +1,14 @@
+<!-- FICHERO DE STRINGS-->
+<resources>
+    <string name="app_name">MenuOption</string>
+    <string name="hello_world">MenuOption</string>
+    <string name="action_settings"></string>
+    <string name="opcion1">Opcion1</string>
+    <string name="mostrar_mensaje">Mostrar mensaje</string>
+    <string name="activity">Ir a activity</string>
+    <string name="fondo_rojo">Fondo rojo</string>
+    <string name="fondo_azul">Fondo azul</string>
+    <string name="nuevoMensaje">Nuevo mensaje</string>
+    <string name="desactivarGrupo">Desactivar items</string>
+    <string name="title_activity_activity2">Activity2</string>
+</resources>
